@@ -32,6 +32,8 @@ set lazyredraw          " Don't render every detail when running macros
 set nowrap              " No line wrap by default
 set ignorecase          " This needs to be enabled to use smartcase
 set smartcase           " Use smartcase in searches (and replaces unfortunately)
+set noerrorbells        " Disable annoying beeping
+set vb t_vb=            " ... continued
 
 " Get rid of GUI noise (toolbar, menus, scrollbars)
 set guioptions-=T
