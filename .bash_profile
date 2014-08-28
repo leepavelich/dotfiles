@@ -7,12 +7,6 @@ set keymap vi
 set -o vi
 export EDITOR="vim"
 
-# ----- aliases --- -----------------------------------------------------------
-
-alias pyhttp='python -m SimpleHTTPServer'
-alias lsh='ls -a | egrep "^\."'
-alias mycpu='sysctl -n machdep.cpu.brand_string'
-
 # ----- set default output for ls; add auto ls after cd -----------------------
 
 if [[ "$(uname)" == "Darwin" ]]; then
@@ -31,7 +25,6 @@ cdls () {
     fi
     return "$cderr"
 }
-alias cd='cdls'
 
 # ----- Prompt config ---------------------------------------------------------
 
