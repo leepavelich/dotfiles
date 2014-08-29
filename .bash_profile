@@ -85,5 +85,6 @@ local br="$(git branch 2> /dev/null)"
 }
 
 export PS1='\[\033[0;$(ps1_color_error $?)m\]$(ps1_value_error $?)\[\033[0;34m\]\W)\[\033[0;35m\]$(ps1_git_branch)\[\033[0m\] '
+
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
