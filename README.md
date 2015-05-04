@@ -8,7 +8,7 @@ Much was taken nearly verbatim from github.com/jaburns and http://code.tutsplus.
 #Instructions
 
 1. Install Homebrew
-   ```
+   ```bash
    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    ```
 2. 
